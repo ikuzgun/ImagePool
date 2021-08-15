@@ -23,7 +23,7 @@ Imagepool, in its simplest definition, is an upload tool that allows your images
 ## API
 
 - The project has a single api link that can access all image records
-- endpoint /api/v1/images/{token} that provides access to image images (for example http://localhost/repositoryname/public/api/v1/images/{token})
+- endpoint /api/v1/images/{token} that provides access to images (for example http://localhost/repositoryname/public/api/v1/images/{token})
 - In this project, we pass the token that provides access to the images as a parameter to the url.
 - sample token for access is available in .env file
 

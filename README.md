@@ -34,4 +34,4 @@ Imagepool, in its simplest definition, is an upload tool that allows your images
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The ImagePool is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

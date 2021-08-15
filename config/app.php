@@ -166,6 +166,10 @@ return [
          * Package Service Providers...
          */
 
+        /*Added after install laravel*/
+        Spatie\EloquentSortable\EloquentSortableServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -228,6 +232,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+         
+         // added after installation
+        'Image' => Intervention\Image\Facades\Image::class
 
     ],
 
